@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"a340fc05c95f9bd4","type":"text","text":"Have an extension button or toggle of how much longer the performance is going on for and have the audience able to manipulate it as well","x":820,"y":7,"width":250,"height":204,"color":"#0c707d"},
+		{"id":"f530fee5af48e8e8","type":"text","text":"Clicking on the pin will cause a pop-up window listing time and publish","x":-100,"y":-59,"width":250,"height":132,"color":"#2f5a92"},
+		{"id":"64b3f36e439549c4","type":"text","text":"Have presets to keep the experience as fast as possible in a dropdown","x":420,"y":360,"width":250,"height":120,"color":"#3c9dbe"},
+		{"id":"4d45ec2672e4ed97","x":1540,"y":208,"width":250,"height":152,"color":"#255db6","type":"text","text":"When clicking on publish it creates another pop-up asking if the performer is 100% ready to go live or not yet"},
+		{"id":"abe812de1a2a31a7","type":"text","text":"Have pin automatically disappear when the event is over","x":1940,"y":7,"width":250,"height":116,"color":"#563d8f"},
+		{"id":"09beaa7252b44e91","x":1200,"y":460,"width":250,"height":146,"color":"#799fc8","type":"text","text":"Have a large publish button at the bottom of the pop-up window for when the performer is ready to go live"},
+		{"id":"0173725ef9a7bd97","type":"text","text":"Home page of a map with a search bar at the top for performers to find themselves","x":-760,"y":446,"width":250,"height":160,"color":"5"},
+		{"id":"d5885647537d5a6e","type":"text","text":"Create a pin once the user clicks on their location","x":-350,"y":211,"width":250,"height":90,"color":"#497ea7"}
+	],
+	"edges":[
+		{"id":"8ad5aa1b77e7e459","fromNode":"0173725ef9a7bd97","fromSide":"right","toNode":"d5885647537d5a6e","toSide":"left","label":"Find location and pin it"},
+		{"id":"f2640d508b5bcb25","fromNode":"d5885647537d5a6e","fromSide":"right","toNode":"f530fee5af48e8e8","toSide":"left","label":"Pins and their abilities\n"},
+		{"id":"6f88a76f4866e0a8","fromNode":"f530fee5af48e8e8","fromSide":"right","toNode":"64b3f36e439549c4","toSide":"left","label":"Presets for speed and efficiency"},
+		{"id":"feed7bd3638090bd","fromNode":"64b3f36e439549c4","fromSide":"right","toNode":"a340fc05c95f9bd4","toSide":"left","label":"Adding time extensions"},
+		{"id":"c4a6cbd82268cffd","fromNode":"a340fc05c95f9bd4","fromSide":"right","toNode":"09beaa7252b44e91","toSide":"left","label":"Finishing and publishing to make it live"},
+		{"id":"5053102b853d2110","fromNode":"09beaa7252b44e91","fromSide":"right","toNode":"4d45ec2672e4ed97","toSide":"left","label":"Making sure the performer did not misclick"},
+		{"id":"2c0e06f27223886f","fromNode":"4d45ec2672e4ed97","fromSide":"right","toNode":"abe812de1a2a31a7","toSide":"left","label":"When it is all over"}
+	]
+}
