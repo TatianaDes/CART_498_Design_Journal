@@ -127,6 +127,8 @@ To make it easier for the audience to know when their favourite performer is sti
 [[CART 498 - Week 2 User Flows.canvas]]
 
 #### Figma Wireframe:
+https://www.figma.com/design/AULXAATqRi79ffFKxfQdQS/CART-498---Week-2-Wireframe?node-id=0-1&t=X0WntoUPROcbe7Dg-1
+
 ### Results
 To be determined...
 
