@@ -18,7 +18,7 @@ Liam is now wanting the active set interface to work entirely offline once launc
 + Once the performance is published, on the screen with the actively live set, there must be a visible icon that indicates when the app is offline, but it never asks the user for cellular data, it just continues to function.
 + When there is a connection drop, the app will indicate it, but all buttons will stay usable and all screen will still be able to be navigated since the app should work with and without WiFi the same way.
 
-1. Findability - Can Users Locate What They Need
+2. Findability - Can Users Locate What They Need
 With separate screens for each important feature, it will be a lot easier to find exactly what each performer is desiring to look at and interact with while on stage.
 + The extension button should be clear and indicate how much time will be added onto the set as well as a visual of the increased time, this button should also be able to have a "go back" button in case there is a misclick. All this should be immediate on the page.
 + On the active live set screen there will need to be a very clear countdown timer as soon as the performance is live and the time of the performance is published. 
@@ -28,14 +28,14 @@ With separate screens for each important feature, it will be a lot easier to fin
 + With the offline function, it should be clear when the user is on or offline with an icon.
 + When the connection drops the user should get a quick notification, but the application should still work as normal since it should work on and off WiFi.
 
-1. Credibility - Do Users Trust Your Product
+3. Credibility - Do Users Trust Your Product
 With the clear buttons on the performers side of the app, it should directly translate to the audience immediately so that everyone is on the same page without any issues. As long as everything works smoothly and everything is connected there should be no problem with trusting this app is showing completely live feedback.
 
 For the GPS restrictions, as long as it is clear to the audience that it is an approximate radius, it should allow for privacy as well as quicker location pinning because of the less specific location.
 
 To make sure the WiFi connection changes does not change the usability of the application, the refreshing and finding the WiFi connection or disconnection should be in the background, keeping the app working as usual and giving the much less cumbersome experience.
 
-1. Usefulness - Does the Product Solve a Real Problem
+4. Usefulness - Does the Product Solve a Real Problem
 If performers are restricted by time, by WiFi connection efficiency, and by accurate GPS locations, they need quick informative buttons to click on that create big important changes to inform their audience nonverbally, they need easy to read performance information. They need WiFi connection refreshing to not affect anything on the app to keep everything smooth. And they need their audience to know where they are by following city laws. With these new features added to the app, thing should run smoother for the performer and therefore the audience.
 
 ## User Assumptions
