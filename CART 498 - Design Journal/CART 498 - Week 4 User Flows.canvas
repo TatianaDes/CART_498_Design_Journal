@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"687273baddb9d144","type":"text","text":"Have an extension button or toggle of how much longer the performance is going on for and have the audience able to manipulate it as well","x":23,"y":348,"width":250,"height":204,"color":"#0c707d"},
+		{"id":"02ae3407e8e06fb4","type":"text","text":"Clicking on the pin will cause a pop-up window listing time and publish","x":-897,"y":282,"width":250,"height":132,"color":"#2f5a92"},
+		{"id":"77446ccbe771809e","type":"text","text":"Have presets to keep the experience as fast as possible in a dropdown","x":-377,"y":701,"width":250,"height":120,"color":"#3c9dbe"},
+		{"id":"e04b7051d20e03e2","type":"text","text":"When clicking on publish it creates another pop-up asking if the performer is 100% ready to go live or not yet","x":743,"y":549,"width":250,"height":152,"color":"#255db6"},
+		{"id":"c1efc3a79f6d1eff","type":"text","text":"Have a large publish button at the bottom of the pop-up window for when the performer is ready to go live","x":403,"y":801,"width":250,"height":146,"color":"#799fc8"},
+		{"id":"2bc77045a1e575c5","type":"text","text":"Map page of a map with a search bar at the top for performers to find themselves.","x":-1557,"y":787,"width":250,"height":160,"color":"5"},
+		{"id":"945eb101d78e865a","type":"text","text":"Create a pin once the user searches for the street name and selects the radius that best fits their location but not exact location.","x":-1147,"y":552,"width":250,"height":149,"color":"#497ea7"},
+		{"id":"2fc0b6679079511e","type":"text","text":"There will be an \"End Set\" button that once clicked will take the pin off the map and the performer's live information will stop, they will only be able to see their tip jar and performance time.","x":1958,"y":100,"width":285,"height":177,"color":"#a32498"},
+		{"id":"e049e914d971a199","type":"text","text":"Creating a live set screen that can be navigated by the navigation menu at the bottom of the screen. This page will have the live set countdown from the time that was selected from the publishing page. ","x":-200,"y":-400,"width":348,"height":160,"color":"#cf44a3"},
+		{"id":"d69da084c570b523","type":"text","text":"There will be an icon of a tip jar and the live tips that the performer is getting as their set is ongoing,","x":273,"y":-26,"width":250,"height":148,"color":"#b4189f"},
+		{"id":"d79d87f246949527","type":"text","text":"Make the extension button on the live set screen so that it is able to be manipulated by the performer as they are performing. It will be a button that says \"Extend 15 min.\" and each time it is pressed it will add 15 minutes to the set. This extension of time will be visually seen on the set countdown.","x":1478,"y":-306,"width":331,"height":223,"color":"#520047"},
+		{"id":"a1e25f993b536847","type":"text","text":"Live set screen should always have a WiFi icon that indicates online or offline and a notification will occur when the app is going offline, but nothing will change in terms of use.","x":718,"y":-946,"width":250,"height":212,"color":"#af64a9"},
+		{"id":"7e849ee793358ac1","x":-2999,"y":124,"width":319,"height":156,"color":"#ffcb5c","type":"text","text":"The colours of the interface should have blues, and yellows, and oranges, to keep everything energetic and lively (like references)."},
+		{"id":"0bc727896cc1ea44","x":-3219,"y":482,"width":273,"height":207,"color":"#ba8b26","type":"text","text":"The app's interface should change colour if it is the performer's side or the audience's side with key changes that make it apparent which side of the app the user is on."},
+		{"id":"1810c0f697eaff0f","type":"text","text":"Home page with the application name and toggle button of performer or audience. A short description of its uses for the performers and audience.","x":-2242,"y":412,"width":320,"height":140,"color":"1"},
+		{"id":"e219613fbd5dee56","x":-2839,"y":787,"width":315,"height":170,"color":"#ff9500","type":"text","text":"At the bottom of the interface on the navigation bar there will now be a \"settings\" or \"more\" icon where there will be modes like blue light that can be toggled on and off."},
+		{"id":"c749708ccb4e37bb","x":-2219,"y":1067,"width":297,"height":213,"color":"#d16500","type":"text","text":"Reduce the graphics on the navigation bar as well as any other icons to be simple designs, so that they can easily be found and distinguished no matter the change of colours and format of the app."},
+		{"id":"14328aa659f94ab3","x":-3800,"y":1000,"width":323,"height":224,"color":"#ffd79e","type":"text","text":"Either in this settings icon, or on the interface itself, there should be a light and dark mode toggle that changes the colour of the app, to fit the user's preference as well as fit the setting (maybe have an automatic option that changes mode depending on time of day)."}
+	],
+	"edges":[
+		{"id":"b88c0027e9e27bbb","fromNode":"687273baddb9d144","fromSide":"right","toNode":"c1efc3a79f6d1eff","toSide":"left","label":"Finishing and publishing to make it live"},
+		{"id":"c77c9f0ca96a7c21","fromNode":"687273baddb9d144","fromSide":"top","toNode":"d79d87f246949527","toSide":"bottom","label":"Changing the extension button to be on the live set screen"},
+		{"id":"75d8d529040cd7e1","fromNode":"77446ccbe771809e","fromSide":"right","toNode":"687273baddb9d144","toSide":"left","label":"Adding time extensions"},
+		{"id":"8047492342ee33a6","fromNode":"02ae3407e8e06fb4","fromSide":"right","toNode":"77446ccbe771809e","toSide":"left","label":"Presets for speed and efficiency"},
+		{"id":"e47f6d18213ff79f","fromNode":"945eb101d78e865a","fromSide":"right","toNode":"02ae3407e8e06fb4","toSide":"left","label":"Pins and their abilities\n"},
+		{"id":"b2e2ad040962cbff","fromNode":"c1efc3a79f6d1eff","fromSide":"right","toNode":"e04b7051d20e03e2","toSide":"left","label":"Making sure the performer did not misclick"},
+		{"id":"3bb1f5af8e61b5e9","fromNode":"2bc77045a1e575c5","fromSide":"right","toNode":"945eb101d78e865a","toSide":"left","label":"Find location and pin it"},
+		{"id":"d15db509352c66e5","fromNode":"1810c0f697eaff0f","fromSide":"right","toNode":"2bc77045a1e575c5","toSide":"left","label":"Home page to map page as a performer"},
+		{"id":"05afdb7c5ef2f170","fromNode":"d79d87f246949527","fromSide":"right","toNode":"2fc0b6679079511e","toSide":"left","label":"End set button once everything is done"},
+		{"id":"669958e6fdbf37b7","fromNode":"e049e914d971a199","fromSide":"right","toNode":"d69da084c570b523","toSide":"left","label":"Live set countdown and underneath a live tip jar"},
+		{"id":"5dbb53ecf41f7367","fromNode":"e049e914d971a199","fromSide":"top","toNode":"a1e25f993b536847","toSide":"bottom","label":"All live screens will have a WiFi icon and notification of being offline"},
+		{"id":"af3e323748070816","fromNode":"d79d87f246949527","fromSide":"right","toNode":"e049e914d971a199","toSide":"top","label":"Extension of 15 minutes will show on the live countdown"},
+		{"id":"bad7b89a5794fb54","fromNode":"d69da084c570b523","fromSide":"right","toNode":"d79d87f246949527","toSide":"left","label":"15 minute extension button underneath"},
+		{"id":"becc2e8e895cfe51","fromNode":"1810c0f697eaff0f","fromSide":"bottom","toNode":"e219613fbd5dee56","toSide":"top","label":"Add a settings/more icon on navigation bar"},
+		{"id":"56b819df058009d5","fromNode":"1810c0f697eaff0f","fromSide":"left","toNode":"0bc727896cc1ea44","toSide":"right","label":"Interface colours change based on performer or audience"},
+		{"id":"226553bb2fa30892","fromNode":"1810c0f697eaff0f","fromSide":"top","toNode":"7e849ee793358ac1","toSide":"bottom","label":"Use vibrant and exciting colours for the interface"},
+		{"id":"195cf1f0fe100619","fromNode":"e219613fbd5dee56","fromSide":"left","toNode":"14328aa659f94ab3","toSide":"right","label":"Add light and dark mode to interface or in settings to change colour of interface"},
+		{"id":"cbbcb23ca8174395","fromNode":"e219613fbd5dee56","fromSide":"bottom","toNode":"c749708ccb4e37bb","toSide":"top","label":"Reduced graphics for icons"}
+	]
+}
